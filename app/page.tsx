@@ -90,21 +90,21 @@ export default function Home() {
 const heroSection = (
   <div className="flex flex-col items-center justify-center gap-10 text-center lg:text-left px-4 sm:px-8 md:px-16 mb-10 w-full relative">
     <h1 className="text-5xl font-extrabold leading-tight md:text-6xl lg:text-7xl relative z-10 select-none">
-      Hello, I'm{" "}
+      Hello, I&apos;m{" "}
       <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent bg-clip-text">
         Christian Bonafena
       </span>
       ,<br /> a Fullstack Engineer.
     </h1>
     <p className="select-none text-lg text-gray-600 dark:text-gray-400 max-w-5xl mx-auto mt-4 md:text-xl relative z-10 mb-6">
-      I'm a passionate software engineer who thrives on building scalable,
+      I&apos;m a passionate software engineer who thrives on building scalable,
       maintainable, and high-performing software systems. With a love for
       Next.js, React, and modern web technologies, I enjoy bringing ideas to
       life through clean, elegant code.
     </p>
     <div className="select-none mt-6 flex gap-4 justify-center lg:justify-start relative z-10 mb-20">
       <button className="hover:scale-105 text-2xl bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold py-4 px-8 rounded-lg shadow-md hover:opacity-90 transition duration-300 ease-in-out">
-        Let's Connect
+        Let&apos;s Connect
       </button>
       <button className="border-2 border-gradient-to-r from-blue-500 to-purple-500 text-2xl text-blue-500 font-semibold py-4 px-8 rounded-lg hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 hover:text-white transition duration-300 ease-in-out">
         View Portfolio
@@ -148,7 +148,7 @@ const showcaseSection = (
   <div className="flex flex-col gap-6 w-full mt-12">
     <h2 className="text-4xl font-bold dark:text-white">Showcase</h2>
     <p className="text-lg text-gray-600 dark:text-gray-300">
-      Here are some of the projects I've worked on. Click on each project to learn more.
+      Here are some of the projects I&apos;ve worked on. Click on each project to learn more.
     </p>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {/* Project 1 */}
