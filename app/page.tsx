@@ -102,7 +102,7 @@ const heroSection = (
       Next.js, React, and modern web technologies, I enjoy bringing ideas to
       life through clean, elegant code.
     </p>
-    <div className="mt-6 flex gap-4 justify-center lg:justify-start relative z-10 mb-20">
+    <div className="select-none mt-6 flex gap-4 justify-center lg:justify-start relative z-10 mb-20">
       <button className="hover:scale-105 text-2xl bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold py-4 px-8 rounded-lg shadow-md hover:opacity-90 transition duration-300 ease-in-out">
         Let's Connect
       </button>
@@ -115,8 +115,6 @@ const heroSection = (
 const skillsSection = (
   <div className="flex flex-col gap-10">
     <div className="h-16"></div>
-    
-
     <h2 className="text-4xl font-bold dark:text-white">My Skills</h2>
     <p className="text-lg text-gray-600 dark:text-gray-300">
       I specialize in web development, working with both frontend and backend
